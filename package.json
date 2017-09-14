@@ -1,0 +1,29 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "async series and parallel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohith8047/async.git"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "rohith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohith8047/async/issues"
+  },
+  "homepage": "https://github.com/rohith8047/async#readme",
+  "dependencies": {
+      "async": "^2.5.0",
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "mongoose": "^4.11.11"
+  },
+}
