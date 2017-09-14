@@ -1,5 +1,5 @@
 {
-  "name": "async",
+  "name": "xyz",
   "version": "1.0.0",
   "description": "async series and parallel",
   "main": "server.js",
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/rohith8047/async#readme",
   "dependencies": {
-      "async": "^2.5.0",
-      "body-parser": "^1.18.1",
-      "express": "^4.15.4",
-      "mongoose": "^4.11.11"
-  },
+    "async": "^2.5.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  }
 }
