@@ -25,10 +25,11 @@
 </head>
 <body ng-app="myApp" ng-controller="myCtrl">
 
-<div class="container">
+
 
 
     <nav class="navbar navbar-default">
+        <div class="container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -58,96 +59,10 @@
 
 
 </div>
-<br>
-<br>
-<br>
-
-ng-repeat<br>
-
-<h1 ng-repeat="x in records">{{x}}</h1>
 
 
-<hr>
 
-ng-click<br>
-
-<button ng-click="myFunc()">OK</button>
-<p>The button has been clicked {{count}} times.</p>
-
-<hr>
-ng-init<br>
-
-<div  ng-init="myText='hello mtw labs!'">
-
-    <h1>{{myText}}</h1>
-
-    <hr>
-
-</div>
-
-<div>
-    ng-change<br>
-    <p>Write something in the input field:</p>
-    <input type="text" ng-change="change()" ng-model="myValue" />
-    <p>The input field has changed {{counts}} times.</p>
-</div>
-
-<hr>
-ng-init<br>
-<div ng-init="myText='this is ng-bind'">
-
-    <h3 ng-bind="myText"></h3>
-
-</div>
-
-<hr>
-
-ng-model<br>
-<div  ng-controller="myCtrl">
-    Name: <input ng-model="name">
-</div>
-<hr>
-ng-app<br>
-<div  ng-controller="myCtrl">
-    {{ firstName + " " + lastName }}
-</div>
-
-
-<hr>
-
-ng-show<br>
-
-Show HTML: <input type="checkbox" ng-model="myVar">
-
-<div ng-show="myVar">
-    <h1>Welcome</h1>
-    <p>Welcome to my home.</p>
-</div>
-
-<hr>
-
-ng-hide<br>
-Hide HTML: <input type="checkbox" ng-model="mvr">
-
-<div ng-hide="mvr">
-    <h1>Welcome</h1>
-    <p>Welcome to my home.</p>
-</div>
-
-
-<hr>
-
-<p>Choose a class:</p>
-
-<select ng-model="home">
-    <option value="sky">Sky</option>
-    <option value="tomato">Tomato</option>
-</select>
-
-<div ng-class="home">
-    <h1>Welcome Home!</h1>
-    <p>I like it!</p>
-</div>
+<div style="background-color: black">footer</div>
 
 <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -156,6 +71,8 @@ Hide HTML: <input type="checkbox" ng-model="mvr">
 
     <script src="js/app.js"></script>
     <script src="js/controllers/control.js"></script>
+    <script src="js/controllers/home.js"></script>
+    <script src="js/controllers/about.js"></script>
 
 
 
