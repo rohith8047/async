@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router()
 
 var parallel=require('../modules/async-parallel.js');
-var series=require('../modules/async-parallel.js');
+var series=require('../modules/async-series.js');
 
 
 router.get('/parallel', function(req,res){

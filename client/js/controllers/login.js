@@ -1,7 +1,6 @@
 
 app.controller('homecontroll', ['$scope','$http', function($scope,$http) {
     $scope.homeAlert = function() {
-        alert('this is home page');
 
         $http({
         	method:'GET',
@@ -12,5 +11,11 @@ app.controller('homecontroll', ['$scope','$http', function($scope,$http) {
         function error(response){
         	console.log(response);
         });
+
+        $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });
+
+
     }
 }]);

@@ -2,5 +2,5 @@ module.exports = {
     mongo: {
         url: 'mongodb://localhost/nonveg'
     },
-    port:5400
+    port:5450
 };

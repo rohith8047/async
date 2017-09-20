@@ -1,0 +1,47 @@
+
+<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+
+    <div class="login-page" ng-controller="NavCtrl">
+        <div class="form">
+            <p><b>Log in</b></p>
+            <form class="login-form">
+                <input type="text" placeholder="username"/>
+                <input type="password" placeholder="password"/>
+                <button>login</button>
+                <p class="message">Not registered? <a href="#" ng-click="openregisterModal()">Create an account</a></p>
+            </form>
+        </div>
+
+
+
+
+
+        <script type="text/ng-template" id="myModalContent.html">
+            <div>
+                    <div class="form">
+                        <p><b>Create a new account</b></p>
+                        <form class="login-form">
+                            <input type="text" placeholder="firstname"/>
+                            <input type="text" placeholder="lastnamename"/>
+                            <input type="password" placeholder="enter-password"/>
+                            <input type="password" placeholder="confirm-password"/>
+                            <input type="password" placeholder="email"/>
+                            <button>login</button>
+                        </form>
+                    </div>
+            </div>
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
